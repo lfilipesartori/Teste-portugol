@@ -1,0 +1,44 @@
+algoritmo "notas"
+var
+  n1,n2,media: real
+inicio
+   escreval("-----------------")
+   
+   escreva("Primeira Nota: ")
+   leia(n1)
+   
+   escreva("Segunda Nota: ")
+   leia(n2)
+   
+   escreval("-----------------")
+   
+   media <- (n1 + n2)/2
+   
+   escreval("Media: ", media)
+   
+   escolha media
+   
+            caso 9,10
+            escreva("Aproveitamento: A")
+            
+            caso 8.9,8
+            escreva("Aproveitamento: B")
+            
+            caso 7.9,7
+            escreva("Aproveitamento: C")
+            
+            caso 6.9, 6
+            escreva("Aproveitamento: D")
+            
+            caso 5.9,5
+            escreva("Aproveitamento: E")
+            
+            outrocaso
+            escreval("Aproveitamento: F")
+            
+ 
+   fimescolha
+   
+  escreva("-----------------")
+  
+fimalgoritmo
